@@ -8,17 +8,85 @@
 <link rel="canonical" href="https://bollanda.github.io/nl-be/">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
- "@type": "ProfilePage",
- "@id": "https://bollanda.github.io/nl-be/#profilepage",
- "url": "https://bollanda.github.io/nl-be/",
- "name": "Bollanda België",
- "inLanguage": "nl-BE",
- "mainEntity": {
-  "@type": "Organization",
-  "@id": "https://bollanda.be/#organization",
-  "name": "Bollanda België",
-  "url": "https://bollanda.be"
- }
+ "@graph": [
+  {
+   "@type": "ProfilePage",
+   "@id": "https://bollanda.github.io/nl-be/#profilepage",
+   "url": "https://bollanda.github.io/nl-be/",
+   "name": "Bollanda België",
+   "inLanguage": "nl-BE",
+   "mainEntity": {
+    "@id": "https://bollanda.be/#organization"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://bollanda.be/#organization",
+   "name": "Bollanda België",
+   "url": "https://bollanda.be",
+   "email": "info@bollanda.be",
+   "sameAs": [
+    "https://sites.google.com/view/bollandanlbe/home",
+    "https://bollandanlbe.blogspot.com",
+    "https://www.youtube.com/@BollandanlBE",
+    "https://www.facebook.com/BollandanlBE/",
+    "https://www.instagram.com/bollandanlbe/",
+    "https://x.com/BollandanlBE",
+    "https://nl.pinterest.com/bollandanlbe/",
+    "https://bsky.app/profile/bollandanlbe.bsky.social",
+    "https://www.tumblr.com/bollandanlbe",
+    "https://gist.github.com/Maestroma/eb07af3a6cf30b2bb089c182bf0fad39",
+    "https://bollandanlbe.wordpress.com",
+    "https://gravatar.com/bollandanlbe",
+    "https://issuu.com/bollandanlbe",
+    "https://www.scribd.com/user/1036276355/Bollanda-Belgie",
+    "https://www.slideshare.net/BollandaBelgi"
+   ]
+  },
+  {
+   "@type": "PodcastSeries",
+   "@id": "https://nl.bollanda.be/over#podcast",
+   "name": "Bollanda Podcast",
+   "inLanguage": "nl-BE",
+   "url": "https://open.spotify.com/show/2goiRWJkKw8fzews9ukhIH",
+   "publisher": {
+    "@id": "https://bollanda.be/#organization"
+   },
+   "sameAs": [
+    "https://creators.spotify.com/pod/show/bollandanlbe",
+    "https://www.imdb.com/title/tt50173918",
+    "https://music.amazon.com/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.es/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.co.uk/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.co.jp/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.fr/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.de/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.it/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.ca/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.com.au/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.com.mx/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.com.br/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://music.amazon.in/podcasts/eab3e2af-4a5e-4a6d-bc0d-5f8817f3beea",
+    "https://www.amazon.com/Bollanda-Podcast-nl-BE/dp/B0HK6NF5Z1",
+    "https://www.amazon.co.uk/Bollanda-Podcast-nl-BE/dp/B0HK77YCS3",
+    "https://www.amazon.it/Bollanda-Podcast-nl-BE/dp/B0HK749888",
+    "https://www.amazon.de/Bollanda-Podcast-nl-BE/dp/B0HK732W2C",
+    "https://www.amazon.fr/Bollanda-Podcast-nl-BE/dp/B0HK6W46KS",
+    "https://www.amazon.ca/Bollanda-Podcast-nl-BE/dp/B0HK7BFWDP",
+    "https://www.amazon.in/Bollanda-Podcast-nl-BE/dp/B0HK6MPM2T",
+    "https://www.amazon.com.au/Bollanda-Podcast-nl-BE/dp/B0HK7GG9KS",
+    "https://www.audible.com/podcast/Bollanda-Podcast-nl-BE/B0HK6MY9P8",
+    "https://www.audible.co.uk/podcast/Bollanda-Podcast-nl-BE/B0HK78M8Y5",
+    "https://www.audible.it/podcast/Bollanda-Podcast-nl-BE/B0HK6XNSKD",
+    "https://www.audible.ca/podcast/Bollanda-Podcast-nl-BE/B0HK73FWWT",
+    "https://www.audible.fr/podcast/Bollanda-Podcast-nl-BE/B0HK6LB8B3",
+    "https://www.audible.de/podcast/Bollanda-Podcast-nl-BE/B0HK71SZNN",
+    "https://www.audible.in/podcast/Bollanda-Podcast-nl-BE/B0HK78LZ3D",
+    "https://www.audible.com.au/podcast/Bollanda-Podcast-nl-BE/B0HK715VK3",
+    "https://www.audible.co.jp/podcast/Bollanda-Podcast-nl-BE/B0HK6L47TR"
+   ]
+  }
+ ]
 }</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
@@ -31,6 +99,7 @@
 <h2>Wat is Bollanda?</h2>
 <ul>
 <li>Website: <a href="https://nl.bollanda.be">nl.bollanda.be</a></li>
+<li>E-mail: <a href="mailto:info@bollanda.be">info@bollanda.be</a></li>
 <li>Taal: Nederlands (België)</li>
 <li>Onderwerp: bloembollen (bollen, knollen en wortelstokken)</li>
 <li>Uitgever: Maestroma, met Bollanda als geregistreerde handelsnaam</li>

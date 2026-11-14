@@ -8,17 +8,59 @@
 <link rel="canonical" href="https://bollanda.github.io/fr-be/">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
- "@type": "ProfilePage",
- "@id": "https://bollanda.github.io/fr-be/#profilepage",
- "url": "https://bollanda.github.io/fr-be/",
- "name": "Bollanda Belgique",
- "inLanguage": "fr-BE",
- "mainEntity": {
-  "@type": "Organization",
-  "@id": "https://bollanda.be/#organization",
-  "name": "Bollanda België",
-  "url": "https://bollanda.be"
- }
+ "@graph": [
+  {
+   "@type": "ProfilePage",
+   "@id": "https://bollanda.github.io/fr-be/#profilepage",
+   "url": "https://bollanda.github.io/fr-be/",
+   "name": "Bollanda Belgique",
+   "inLanguage": "fr-BE",
+   "mainEntity": {
+    "@id": "https://bollanda.be/#organization"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://bollanda.be/#organization",
+   "name": "Bollanda België",
+   "alternateName": "Bollanda Belgique",
+   "url": "https://bollanda.be",
+   "email": "contact@bollanda.be",
+   "sameAs": [
+    "https://sites.google.com/view/bollandafrbe/home",
+    "https://bollandafrbe.blogspot.com",
+    "https://www.youtube.com/@BollandafrBE",
+    "https://www.facebook.com/BollandafrBE/",
+    "https://www.instagram.com/bollandafrbe/",
+    "https://x.com/BollandafrBE",
+    "https://fr.pinterest.com/bollandafrbe/",
+    "https://bsky.app/profile/bollandafrbe.bsky.social",
+    "https://www.tumblr.com/bollandafrbe",
+    "https://gist.github.com/Maestroma/e05f945abbd7ee6346fd69aafac398ee",
+    "https://bollandafrbe.wordpress.com",
+    "https://gravatar.com/bollandafrbe",
+    "https://issuu.com/bollandafrbe",
+    "https://www.scribd.com/user/1038593776/Bollanda-Belgique",
+    "https://www.slideshare.net/BollandaBelgique"
+   ]
+  },
+  {
+   "@type": "PodcastSeries",
+   "@id": "https://fr.bollanda.be/a-propos#podcast",
+   "name": "Bollanda Podcast",
+   "inLanguage": "fr-BE",
+   "url": "https://open.spotify.com/show/1zpgTWsEWUcjkQyG43xHAV",
+   "publisher": {
+    "@id": "https://bollanda.be/#organization"
+   },
+   "sameAs": [
+    "https://creators.spotify.com/pod/show/bollandafrbe",
+    "https://www.imdb.com/title/tt50174526",
+    "https://music.amazon.com/podcasts/cb4c9b9f-f8b0-47bf-803a-624684286d32/bollanda-podcast-fr-be",
+    "https://www.audible.com/pd/B0HN11C563"
+   ]
+  }
+ ]
 }</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
@@ -31,6 +73,7 @@
 <h2>Qu'est-ce que Bollanda ?</h2>
 <ul>
 <li>Site web : <a href="https://fr.bollanda.be">fr.bollanda.be</a></li>
+<li>E-mail : <a href="mailto:contact@bollanda.be">contact@bollanda.be</a></li>
 <li>Langue : français (Belgique)</li>
 <li>Sujet : bulbes à fleurs (bulbes, cormes, tubercules et rhizomes)</li>
 <li>Éditeur : Maestroma, avec Bollanda comme nom commercial enregistré</li>

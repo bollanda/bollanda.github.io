@@ -8,17 +8,59 @@
 <link rel="canonical" href="https://bollanda.github.io/de-de/">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
- "@type": "ProfilePage",
- "@id": "https://bollanda.github.io/de-de/#profilepage",
- "url": "https://bollanda.github.io/de-de/",
- "name": "Bollanda Deutschland",
- "inLanguage": "de-DE",
- "mainEntity": {
-  "@type": "Organization",
-  "@id": "https://bollanda.de/#organization",
-  "name": "Bollanda Deutschland",
-  "url": "https://bollanda.de"
- }
+ "@graph": [
+  {
+   "@type": "ProfilePage",
+   "@id": "https://bollanda.github.io/de-de/#profilepage",
+   "url": "https://bollanda.github.io/de-de/",
+   "name": "Bollanda Deutschland",
+   "inLanguage": "de-DE",
+   "mainEntity": {
+    "@id": "https://bollanda.de/#organization"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://bollanda.de/#organization",
+   "name": "Bollanda Deutschland",
+   "url": "https://bollanda.de",
+   "email": "info@bollanda.de",
+   "sameAs": [
+    "https://sites.google.com/view/bollandade/home",
+    "https://bollandade.blogspot.com",
+    "https://www.youtube.com/@BollandaDE",
+    "https://www.facebook.com/BollandaDE/",
+    "https://www.instagram.com/bollandade/",
+    "https://x.com/BollandaDE",
+    "https://de.pinterest.com/bollandade/",
+    "https://bsky.app/profile/bollandade.bsky.social",
+    "https://www.tumblr.com/bollandade",
+    "https://gist.github.com/Maestroma/6c8364720653fb581db82e53ad44046b",
+    "https://bollandade.wordpress.com",
+    "https://gravatar.com/bollandade",
+    "https://issuu.com/bollandade",
+    "https://www.scribd.com/user/1041449967/Bollanda-Deutschland",
+    "https://www.slideshare.net/BollandaDeutschland"
+   ]
+  },
+  {
+   "@type": "PodcastSeries",
+   "@id": "https://bollanda.de/ueber#podcast",
+   "name": "Bollanda Podcast",
+   "inLanguage": "de-DE",
+   "url": "https://open.spotify.com/show/4YijymPABGjm3JFRdlV7jR",
+   "publisher": {
+    "@id": "https://bollanda.de/#organization"
+   },
+   "sameAs": [
+    "https://creators.spotify.com/pod/show/bollandade",
+    "https://www.imdb.com/title/tt50174541",
+    "https://music.amazon.com/podcasts/3e19c679-0d30-4589-9f07-2dfb093cf2aa/bollanda-podcast-de-de",
+    "https://www.amazon.com/dp/B0HMZXJZBK",
+    "https://www.audible.com/pd/B0HMZXXW43"
+   ]
+  }
+ ]
 }</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
@@ -31,6 +73,7 @@
 <h2>Was ist Bollanda?</h2>
 <ul>
 <li>Website: <a href="https://bollanda.de">bollanda.de</a></li>
+<li>E-Mail: <a href="mailto:info@bollanda.de">info@bollanda.de</a></li>
 <li>Sprache: Deutsch (Deutschland)</li>
 <li>Thema: Blumenzwiebeln (Zwiebeln, Knollen und Rhizome)</li>
 <li>Herausgeber: Maestroma, mit Bollanda als eingetragenem Handelsnamen</li>
